@@ -50,4 +50,13 @@ nav#menu ul{
 nav#menu a{
   text-decoration: none;
   color: var(--texto-inverso);
+  font-weight: 600px;
+  padding: 12px 15px;
+  border-radius: 5px;
+}
+
+nav#menu a:hover{
+  background-color: var(--destaque-inverso);
+  color: var(--destaque);
+  transition: background-color 0.5s, color 0.5s;
 }
